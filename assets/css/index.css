@@ -2,11 +2,204 @@ body {
   margin: 0;
 }
 
-
-/* On devices wider than 660px */
-@media(min-width: 660px) {
+nav {
+  display: inline;
+}
+nav h1 {
+  font-family: "PT Sans Narrow Bold" ;
+  font-size: 1.5em ;
+  color: #323232 ;
+  float: left;
 }
 
-/* On devices wider than 940px */
-@media(min-width: 940px) {
+nav p {
+  font-family: "PT Sans Regular" ;
+  font-size: .9em ;
+  color: #323232 ;
+  float: right;
+}
+
+.photo {
+  width: 100% ;
+}
+.mobile_cat {
+  display: none ;
+}
+.city_background {
+  display: none ;
+}
+h1 {
+  font-family: "PT Sans Narrow" ;
+  font-size: 1.875em ;
+  font-weight: bold ;
+  text-align: center ;
+}
+
+#first_h1 {
+  margin: 80px 0 45px 0 ;
+}
+
+h3 {
+  font-family: "PT Serif Regular" ;
+  font-size: 1em ;
+  line-height: 2em ;
+}
+h3#more_info {
+  text-align: left ;
+  max-width: 600px ;
+  width: 90% ;
+  margin-right: auto ;
+  margin-left: auto ;
+  margin-bottom: 80px ;
+}
+
+h2 {
+  font-family: "PT Sans Narrow" ;
+  font-size: 1.5em ;
+  font-weight: bold ;
+  text-transform: uppercase ;
+  color: #00897f ;
+}
+
+.about {
+  background-color: #eeeeee ;
+  padding: 30px ;
+  display: inline-block ;
+  justify-content: center ;
+  width: 350px ;
+  vertical-align: top ;
+}
+#about_section {
+  text-align: center ;
+}
+#about_kat {
+  margin-right: 30px ;
+}
+
+#about_mavis {
+  margin-left: 30px ;
+}
+
+.about p {
+  text-align: left ;
+}
+
+.thumbnail {
+  width: 250px ;
+  padding: 55px ;
+  border-radius: 50% ;
+}
+
+#middle_thumbnail {
+  padding-left: 55px ;
+  padding-right: 55px ;
+}
+
+#get_in_touch {
+  background-color: #eeeeee ;
+  padding: 30px ;
+  width: 100% ;
+  text-align: center;
+}
+#get_in_touch h1 {
+  padding: 80px 0 45 0 ;
+}
+
+#hours {
+  background-color: white;
+  padding: 30px ;
+  width: 250px ;
+  height: 200px ;
+  display: inline-block;
+  margin-right: 30px ;
+  margin-bottom: 80px ;
+  vertical-align: top ;
+}
+
+#contact {
+  background-color: white;
+  padding: 30px ;
+  width: 250px ;
+  height: 200px ;
+  display: inline-block;
+  margin-left: 30px ;
+  margin-bottom: 80px ;
+  vertical-align: top ;
+}
+
+
+a {
+  font-family: "PT Serif Bold" ;
+  font-size: 1em ;
+  color: #f26522 ;
+}
+.map {
+  width: 100% ;
+}
+
+footer {
+  background-color: #00897f ;
+  height: 125px ;
+}
+footer h1 {
+  font-family: "PT Sans Narrow Bold" ;
+  font-size: 1.25em ;
+  color: white ;
+  padding-top: 65px ;
+}
+
+
+/* On devices smaller than 890px */
+@media (max-width: 890px) {
+  #about_kat {
+    margin-right: 0;
+  }
+  #about_mavis {
+    margin-left: 0;
+  }
+  #hours {
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+  #contact {
+    margin-left: 0;
+    margin-bottom: 0;
+  }
+  #first_thumbnail {
+    display: none ;
+  }
+
+  #middle_thumbnail {
+    display: none ;
+  }
+
+  .photo {
+    display: none ;
+  }
+
+  .city_background {
+    z-index: 0 ;
+    width: 100% ;
+    height: 90% ;
+    display: block ;
+  }
+  .mobile_cat {
+    z-index: 1 ;
+    width: 30% ;
+    display: block;
+    position: absolute;
+  
+  }
+  nav p {
+    display: none ;
+  }
+
+  nav h1 {
+  margin: auto ;
+  }
+
+}
+
+/* On devices smaller than 660px */
+@media (max-width: 660px) {
 }
